@@ -10,9 +10,25 @@ import GameplayKit
 
 class GameScene: SKScene {
     
-    
+    var ocean1:Ocean?
+    var ocean2:Ocean?
+    var plane:GameObject?
     
     override func sceneDidLoad() {
+        
+        name = "GAME"
+        
+        //add ocean
+        ocean1 = Ocean()
+        ocean2 = Ocean()
+        ocean2?.position.y = -773
+        addChild(ocean1!)
+        addChild(ocean2!)
+
+        //add plan
+        plane = GameObject(imageString: "plane", initalScale: 2.0)
+        addChild(plane!)
+
 
     }
     
@@ -50,7 +66,9 @@ class GameScene: SKScene {
     
     
     override func update(_ currentTime: TimeInterval) {
-         
+        ocean1?.update()
+        ocean2?.update()
+
     }
 }
 

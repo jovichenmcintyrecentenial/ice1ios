@@ -71,6 +71,7 @@
 		98FA48A12978C13A004B5348 /* ocean.png in Resources */ = {isa = PBXBuildFile; fileRef = 98FA48A02978C13A004B5348 /* ocean.png */; };
 		98FA48A42978C615004B5348 /* GameObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FA48A32978C615004B5348 /* GameObject.swift */; };
 		98FA48A62978CDC9004B5348 /* GameObjectProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FA48A52978CDC9004B5348 /* GameObjectProtocol.swift */; };
+		98FA48A92978D09D004B5348 /* Ocean.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FA48A82978D09D004B5348 /* Ocean.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -139,6 +140,7 @@
 		98FA48A02978C13A004B5348 /* ocean.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ocean.png; sourceTree = "<group>"; };
 		98FA48A32978C615004B5348 /* GameObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameObject.swift; sourceTree = "<group>"; };
 		98FA48A52978CDC9004B5348 /* GameObjectProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameObjectProtocol.swift; sourceTree = "<group>"; };
+		98FA48A82978D09D004B5348 /* Ocean.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ocean.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +173,7 @@
 		98FA48172978BE2F004B5348 /* MAPD724-W2034-ICE-1B */ = {
 			isa = PBXGroup;
 			children = (
+				98FA48A72978D085004B5348 /* GameObjects */,
 				98FA48A22978C600004B5348 /* Core */,
 				98FA482F2978C127004B5348 /* Assets */,
 				98FA48182978BE2F004B5348 /* AppDelegate.swift */,
@@ -285,6 +288,14 @@
 				98FA48A52978CDC9004B5348 /* GameObjectProtocol.swift */,
 			);
 			path = Core;
+			sourceTree = "<group>";
+		};
+		98FA48A72978D085004B5348 /* GameObjects */ = {
+			isa = PBXGroup;
+			children = (
+				98FA48A82978D09D004B5348 /* Ocean.swift */,
+			);
+			path = GameObjects;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -418,6 +429,7 @@
 				98FA481F2978BE30004B5348 /* GameScene.swift in Sources */,
 				98FA48212978BE30004B5348 /* GameViewController.swift in Sources */,
 				98FA48A62978CDC9004B5348 /* GameObjectProtocol.swift in Sources */,
+				98FA48A92978D09D004B5348 /* Ocean.swift in Sources */,
 				98FA48192978BE2F004B5348 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

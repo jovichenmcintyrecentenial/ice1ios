@@ -69,6 +69,8 @@
 		98FA489E2978C127004B5348 /* dock51.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 98FA48682978C127004B5348 /* dock51.woff2 */; };
 		98FA489F2978C127004B5348 /* Dock51.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 98FA48692978C127004B5348 /* Dock51.ttf */; };
 		98FA48A12978C13A004B5348 /* ocean.png in Resources */ = {isa = PBXBuildFile; fileRef = 98FA48A02978C13A004B5348 /* ocean.png */; };
+		98FA48A42978C615004B5348 /* GameObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FA48A32978C615004B5348 /* GameObject.swift */; };
+		98FA48A62978CDC9004B5348 /* GameObjectProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FA48A52978CDC9004B5348 /* GameObjectProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -135,6 +137,8 @@
 		98FA48682978C127004B5348 /* dock51.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = dock51.woff2; sourceTree = "<group>"; };
 		98FA48692978C127004B5348 /* Dock51.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Dock51.ttf; sourceTree = "<group>"; };
 		98FA48A02978C13A004B5348 /* ocean.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ocean.png; sourceTree = "<group>"; };
+		98FA48A32978C615004B5348 /* GameObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameObject.swift; sourceTree = "<group>"; };
+		98FA48A52978CDC9004B5348 /* GameObjectProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameObjectProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +171,7 @@
 		98FA48172978BE2F004B5348 /* MAPD724-W2034-ICE-1B */ = {
 			isa = PBXGroup;
 			children = (
+				98FA48A22978C600004B5348 /* Core */,
 				98FA482F2978C127004B5348 /* Assets */,
 				98FA48182978BE2F004B5348 /* AppDelegate.swift */,
 				98FA481A2978BE30004B5348 /* GameScene.sks */,
@@ -271,6 +276,15 @@
 				98FA48692978C127004B5348 /* Dock51.ttf */,
 			);
 			path = fonts;
+			sourceTree = "<group>";
+		};
+		98FA48A22978C600004B5348 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				98FA48A32978C615004B5348 /* GameObject.swift */,
+				98FA48A52978CDC9004B5348 /* GameObjectProtocol.swift */,
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -400,8 +414,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98FA48A42978C615004B5348 /* GameObject.swift in Sources */,
 				98FA481F2978BE30004B5348 /* GameScene.swift in Sources */,
 				98FA48212978BE30004B5348 /* GameViewController.swift in Sources */,
+				98FA48A62978CDC9004B5348 /* GameObjectProtocol.swift in Sources */,
 				98FA48192978BE2F004B5348 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
